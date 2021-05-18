@@ -1,0 +1,13 @@
+{
+  "name": "Linkedin Auto Reply",
+  "description": "Linkedin Auto Reply Chrome App.",
+  "version": "0.1",
+  "manifest_version": 2,
+   "content_scripts": [{
+    "js": ["linkedin.js"],
+    "matches": ["<all_urls>"]
+  }],
+  "permissions": [
+    "activeTab"
+  ]
+}
